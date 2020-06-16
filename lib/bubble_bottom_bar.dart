@@ -36,7 +36,7 @@ class BubbleBottomBar extends StatefulWidget {
         super(key: key);
 
   final List<BubbleBottomBarItem> items;
-  final dynamic onTap;
+  final ValueSetter<int> onTap;
   int currentIndex;
   final double iconSize;
   final double opacity;
